@@ -5,6 +5,7 @@ go 1.21
 toolchain go1.21.0
 
 replace (
+	github.com/alice/checkers => ../checkers-minimal/
 	// Fix upstream GHSA-h395-qcrw-5vmq vulnerability.
 	// TODO Remove it: https://github.com/cosmos/cosmos-sdk/issues/10409
 	github.com/gin-gonic/gin => github.com/gin-gonic/gin v1.7.0
@@ -13,7 +14,6 @@ replace (
 )
 
 require (
-	cosmossdk.io/api v0.7.2
 	cosmossdk.io/client/v2 v2.0.0-20231005140444-10bd5a2cacdc
 	cosmossdk.io/core v0.11.0
 	cosmossdk.io/depinject v1.0.0-alpha.4
@@ -30,6 +30,7 @@ require (
 )
 
 require (
+	cosmossdk.io/api v0.7.2 // indirect
 	cosmossdk.io/collections v0.4.0 // indirect
 	cosmossdk.io/x/tx v0.10.0 // indirect
 	filippo.io/edwards25519 v1.0.0 // indirect
