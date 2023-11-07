@@ -20,7 +20,7 @@ require (
 	cosmossdk.io/depinject v1.0.0-alpha.4
 	cosmossdk.io/errors v1.0.0
 	cosmossdk.io/log v1.2.1
-	cosmossdk.io/math v1.1.3-rc.1
+	cosmossdk.io/math v1.2.0
 	cosmossdk.io/store v1.0.0
 	cosmossdk.io/tools/confix v0.0.0-20230802091109-5b1bdf11e8c6
 	github.com/alice/checkers v0.0.0
