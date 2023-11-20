@@ -24,7 +24,7 @@ require (
 	cosmossdk.io/store v1.0.0
 	cosmossdk.io/tools/confix v0.0.0-20230802091109-5b1bdf11e8c6
 	github.com/alice/checkers v0.0.0
-	github.com/cometbft/cometbft v0.38.0
+	github.com/cometbft/cometbft v0.38.1
 	github.com/cosmos/cosmos-db v1.0.0
 	github.com/cosmos/cosmos-sdk v0.50.0-rc.1.0.20231005140444-10bd5a2cacdc
 	github.com/spf13/cobra v1.8.0
